@@ -45,7 +45,7 @@ Simply add user details to request similar to this:
 	"power": <power:integer>
 }
 ```
-### /cars/<string:carName>
+### /cars/\<string:carName\>
 #### GET
 Returns data about the individual car based on the model name in the URL
 #### DEL
@@ -74,7 +74,7 @@ Data Format:
 	"rating": <performance_rating:float>
 }
 ```
-### /drivers/``<driver:name>``
+### /drivers/\<driver:name\>
 #### GET
 Returns the driver by the specific name in the URL.
 #### DELETE
