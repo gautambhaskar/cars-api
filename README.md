@@ -74,7 +74,7 @@ Data Format:
 	"rating": <performance_rating:float>
 }
 ```
-### /drivers/`<driver:name>`
+### /drivers/``<driver:name>``
 #### GET
 Returns the driver by the specific name in the URL.
 #### DELETE
