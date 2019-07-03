@@ -92,7 +92,7 @@ Data Format:
 
 ## NOTE: Capitalization does not matter. All input turns into uppercase! All spaces turn into '_'s
 
-
+##### Recommended Testing Tool: Postman
 
 
 
