@@ -29,7 +29,7 @@ Used to authenticate user. Return a JWT access_token. Must do authentication eve
 ```
 The received token must then be copied and used in all further requests. To do so set the "Authorization" Request Header to 
 ```
-'JWT <access_token>'
+'Authorization' : 'JWT <access_token>'
 ```
 
 ### /cars
