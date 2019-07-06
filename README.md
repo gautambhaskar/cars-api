@@ -1,6 +1,8 @@
 # Documentation for Cars API
 RESTful API built with Python and Flask.
 
+Hosted through Heroku.
+
 
 This API allows for saving and interacting with data about drivers and cars on an SQLite DB. To do so, you can use basic HTTP
 commands like PUT, POST, GET, and DELETE...
@@ -40,8 +42,8 @@ Allows user to add cars to DB.
 Simply add user details to request similar to this:
 ```
 {
-	"name": <name>,
-	"make": <manufacturer>,
+	"name": "<name>",
+	"make": "<manufacturer>",
 	"power": <power:integer>
 }
 ```
@@ -55,8 +57,8 @@ Allows for editing of car data (NOTE: Any data can be changed including the name
 Data format:
 ```
 {
-	"name": <name>,
-	"make": <manufacturer>,
+	"name": "<name>",
+	"make": "<manufacturer>",
 	"power": <power:integer>
 }
 ```
@@ -69,8 +71,8 @@ Allows user to add driver to DB
 Data Format:
 ```
 {
-	"driver": <driver_name>,
-	"team": <driver's_racing_team>,
+	"driver": "<driver_name>",
+	"team": "<driver's_racing_team>",
 	"rating": <performance_rating:float>
 }
 ```
@@ -84,8 +86,8 @@ Edits a specific driver based on URL.
 Data Format:
 ```
 {
-	"driver": <driver_name>,
-	"team": <driver's_racing_team>,
+	"driver": "<driver_name>",
+	"team": "<driver's_racing_team>",
 	"rating": <performance_rating:float>
 }
 ```
